@@ -152,17 +152,17 @@ export default Header;
 
 **Au cours des étapes ci-dessus, j'ai appris :**
 
--   Les principes fondamentaux du routage avec Next.js
+-   Les principes fondamentaux du routage avec Next.js\
     (https://nextjs.org/docs/app/building-your-application/routing)
 
--   L'utilisation des composants avec React  
+-   L'utilisation des composants avec React\
     (https://fr.react.dev/learn/your-first-component)
 
--   L'utilsation du composant React "Link"  
-    (https://nextjs.org/docs/app/api-reference/components/link)
+-   L'utilsation du composant React "Link"\
+  (https://nextjs.org/docs/app/api-reference/components/link)
 
--   L'utilisation du client component "usePathname"
+-   L'utilisation du client component "usePathname"\
     (https://nextjs.org/docs/app/api-reference/functions/use-pathname)
 
--   L'utilisation du composant Shadcn-ui "Sheet"
+-   L'utilisation du composant Shadcn-ui "Sheet"\
     (https://ui.shadcn.com/docs/components/sheet)

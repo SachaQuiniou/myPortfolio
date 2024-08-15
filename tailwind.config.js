@@ -22,6 +22,10 @@ module.exports = {
             fontFamily: {
                 primary: "var(--font-rubik)",
             },
+            boxShadow: {
+                xl: "0 10px 25px -8px hsl(var(--primary)), 0 8px 10px -6px hsl(var(--primary))",
+                "2xl": "0 10px 25px -8px hsl(var(--foreground)), 0 8px 10px -6px hsl(var(--foreground))",
+            },
             colors: {
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",

@@ -4,6 +4,8 @@ import "./globals.css";
 
 //Components
 import Header from "@/components/Header";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
 
 const rubik = Rubik({
     subsets: ["latin"],
@@ -22,6 +24,8 @@ export default function RootLayout({ children }) {
             <body className={cn("font-primary", rubik.variable)}>
                 <Header />
                 {children}
+                <Skills />
+                <Projects />
             </body>
         </html>
     );

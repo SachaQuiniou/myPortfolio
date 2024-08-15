@@ -1,34 +1,32 @@
 "use client";
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const links = [
     {
         name: "Home",
-        path: "/",
+        id: "#home",
     },
     {
-        name: "About",
-        path: "/about",
+        name: "Skills",
+        id: "#skills",
     },
     {
         name: "Projects",
-        path: "/projects",
+        id: "#projects",
     },
     {
         name: "Contact",
-        path: "/contact",
+        id: "#contact",
     },
 ];
 
 const MobileNav = () => {
-    const pathname = usePathname();
     return (
         <Sheet>
-            <SheetTrigger className="flex justify-center items-center">
+            <SheetTrigger asChild className="flex justify-center items-center">
                 <RxHamburgerMenu className="text-4xl text-primary" />
             </SheetTrigger>
             <SheetContent className="flex flex-col">
@@ -43,12 +41,9 @@ const MobileNav = () => {
                     {links.map((link, index) => {
                         return (
                             <Link
-                                href={link.path}
+                                href={link.id}
                                 key={index}
-                                className={`${
-                                    link.path === pathname &&
-                                    "text-primary border-b-2 border-primary"
-                                } text-xl hover:text-primary transition-all`}
+                                className="text-xl hover:text-primary"
                             >
                                 {link.name}
                             </Link>

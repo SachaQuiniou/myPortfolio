@@ -12,8 +12,8 @@ const Photo = () => {
                 animate={{
                     opacity: 1,
                     transition: {
-                        delay: 1,
-                        duration: 0.2,
+                        delay: 0.5,
+                        duration: 0.4,
                         ease: "easeInOut",
                     },
                 }}
@@ -23,8 +23,8 @@ const Photo = () => {
                     animate={{
                         opacity: 1,
                         transition: {
-                            delay: 1.2,
-                            duration: 0.2,
+                            delay: 1,
+                            duration: 0.4,
                             ease: "easeIn",
                         },
                     }}
@@ -36,7 +36,7 @@ const Photo = () => {
                         quality={100}
                         fill
                         alt=""
-                        className="object-contain"
+                        className="object-contain brightness-90 hover:brightness-105 hover:transition-all duration-500"
                     />
                 </motion.div>
                 <motion.svg

@@ -1,12 +1,17 @@
 import Link from "next/link";
 
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 const socials = [
     { icon: <FaGithub />, path: "https://github.com/SachaQuiniou" },
     {
         icon: <FaLinkedinIn />,
         path: "https://www.linkedin.com/in/sachaquiniou/",
+    },
+    {
+        icon: <SiGmail />,
+        path: "mailto:sacha.quiniou@gmail.com",
     },
 ];
 

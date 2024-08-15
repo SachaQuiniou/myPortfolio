@@ -4,12 +4,13 @@ import { FiDownload } from "react-icons/fi";
 // Components
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
+import Skills from "@/components/Skills";
 
 const Home = () => {
     return (
         <section className="h-full">
             <div className="container mx-auto h-full">
-                <div className="flex flex-col pt-24 lg:flex-row items-center justify-between lg:pt-48 lg:pb-24">
+                <div className="flex flex-col pt-12 lg:flex-row items-center justify-between lg:pt-24 lg:pb-24">
                     <div className="text-center lg:text-left order-2 lg:order-none">
                         <span className="text-2xl"> Full-Stack Developer</span>
                         <h1 className="text-6xl leading-[1.1] font-semibold mb-6">

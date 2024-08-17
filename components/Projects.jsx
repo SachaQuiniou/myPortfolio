@@ -8,7 +8,7 @@ const projects = [
     {
         name: "My Portfolio",
         icons: [<RiTailwindCssFill />, <FaReact />, <RiNextjsFill />],
-        resume: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        resume: "I'm using the creation of this portfolio as an opportunity to strengthen my technical skills. I chose to explore and learn new technologies during this project. ",
         image: "/img/portfolio.png",
         link: "",
         github: "https://github.com/SachaQuiniou/myPortfolio",
@@ -16,7 +16,7 @@ const projects = [
     {
         name: "Figurine Website",
         icons: [<FaNodeJs />, <BiLogoPostgresql />],
-        resume: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        resume: "Practical exercise during my training. to practice on express and postgresql.",
         image: "/img/figurine.png",
         link: "",
         github: "https://github.com/SachaQuiniou/Figurine-Website",
@@ -24,7 +24,7 @@ const projects = [
     {
         name: "Deck Builder",
         icons: [<FaNodeJs />, <BiLogoPostgresql />],
-        resume: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        resume: "Practical exercise during my training. to practice on express and postgresql.",
         image: "/img/deckbuilder.png",
         link: "",
         github: "https://github.com/SachaQuiniou/Deck-Builder",
@@ -34,7 +34,7 @@ const projects = [
 const Projects = () => {
     return (
         <section id="projects">
-            <div className="container mx-auto h-full">
+            <div className="container mx-auto">
                 <h2 className="text-4xl font-semibold text-center pt-12">
                     Projects
                 </h2>
@@ -59,7 +59,7 @@ const Projects = () => {
                                         {item.icons}
                                     </div>
 
-                                    <p className="text-foreground/80">
+                                    <p className="text-foreground/80 text-justify">
                                         {item.resume}
                                     </p>
                                     <div className="flex gap-4 text-primary">

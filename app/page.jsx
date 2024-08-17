@@ -4,7 +4,6 @@ import { FiDownload } from "react-icons/fi";
 // Components
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
-import Skills from "@/components/Skills";
 
 const Home = () => {
     return (
@@ -18,10 +17,14 @@ const Home = () => {
                             <span className="text-primary">Sacha Quiniou</span>
                         </h1>
                         <p className="max-w-[500px] mb-9 text-foreground/80">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Assumenda ratione doloribus dolorem aut
-                            temporibus? Suscipit itaque quos doloremque
-                            obcaecati veritatis.
+                            I am currently training at the O'clock school to
+                            obtain a professional qualification. I am actively
+                            looking for an internship. <br /> I look forward to
+                            developing my skills with{" "}
+                            <span className="text-primary font-semibold">
+                                you
+                            </span>
+                            .
                         </p>
                         <div className="flex flex-col lg:flex-row items-center gap-8">
                             <a href="/files/cvsacha.pdf" download="cvSacha">

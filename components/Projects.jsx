@@ -10,7 +10,7 @@ const projects = [
         icons: [<RiTailwindCssFill />, <FaReact />, <RiNextjsFill />],
         resume: "I'm using the creation of this portfolio as an opportunity to strengthen my technical skills. I chose to explore and learn new technologies during this project. ",
         image: "/img/portfolio.png",
-        link: "",
+        link: "https://sacha-quiniou.vercel.app/",
         github: "https://github.com/SachaQuiniou/myPortfolio",
     },
     {
